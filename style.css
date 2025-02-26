@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*---------------# Header ----------------*/
+  .nav-link {color: white;}
+header img {width: 150px;}
+.navbar a {color: white;}
+.navbar a:hover {color: rgb(155, 125, 82);}
+.navbar {background-color: rgba(0, 0, 0, 0.2);}
+/*---------------# Home ----------------*/
+.Home-bg video {width: 100%;}
+.header-container {display: flex; justify-content: center; text-align: center;}
+.header-container h1 {position: absolute;top: 0;  color: white;font-weight: 700; font-size: 70px;margin-top: 20%; }
+/*---------------# About-sidc ----------------*/
+.About-sidc-bg {padding: 20vh 0 20vh 0; background-color: rgb(235, 235, 235);}
+.About-sidc-bg h1{font-weight: 700; color: rgb(136, 136, 136);}
+.About-sidc-bg video {width: 100%; border-radius: 10px;}
+.About-sidc-bg .Why-SIDC {padding-top: 50px;text-align: center;}
+/*---------------# Leaders ----------------*/
+.Leaders-bg {padding: 20vh 0 20vh 0; text-align: center;}
+.Leaders-bg h1{ font-weight: 700; color: rgb(136, 136, 136); margin-bottom: 30px;}
+
+
+
+
+
+
+
+
+/*---------------# About page ----------------*/
+.Aboutpage-bg h1{font-weight: 700; color: rgb(136, 136, 136);text-align: center; margin-top: 5vh;}
+.Aboutpage-bg img {width: 100%; border-radius: 30px;}
+.Aboutpage-bg p{line-height: 4vh;}
+.About-Us {padding: 20vh 0 20vh 0; background-image: url(images/aboutpage-bgi.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
+.Our-Mission{padding: 20vh 0 20vh 0; background-color: rgb(255, 237, 214);}
+.Our-Vision{padding: 20vh 0 20vh 0;background-image: url(images/aboutpage-bgi.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
+
+
+
+
+
+
+
+
+/*---------------# members page ----------------*/
+.members-bg {padding: 20vh 0 20vh 0;text-align: center;}
+.members-bg h1{font-weight: 700; color: rgb(136, 136, 136); margin-bottom: 30px;}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */}
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */}
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */}
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;}
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;}
+
+
+
+
+
+
+
+/*---------------# Services page ----------------*/
+.Services-bg {padding: 20vh 0 20vh 0;}
+.Services-bg h1{font-weight: 700; color: rgb(136, 136, 136); margin-bottom: 30px; text-align: center;}
+
+
+
+
+
+
+
+/*---------------# Gallery page----------------*/
+.Gallery-bg {padding: 20vh 0 20vh 0;}
+.Gallery-bg h1{font-weight: 700; color: rgb(136, 136, 136); margin-bottom: 30px; text-align: center;}
+@media (min-width: 1300px) and (max-width: 2560px) {
+  .popup-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;}}
+
+@media (min-width: 700px) and (max-width: 1299px) {
+  .popup-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;}}
+
+@media (min-width: 300px) and (max-width: 699px) {
+  .popup-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;}}
+
+.gallery_item {
+  margin-bottom: 5px;
+  overflow: hidden;}
+
+.popup-gallery a {
+  display: block;
+  width: 100%;
+  border: 1px solid #fff;
+  overflow: hidden;
+  transition: transform 0.3s ease, border-color 0.3s ease;}
+
+.popup-gallery a:hover {
+  transform: scale(1.05);
+  border-color: #fff;}
+
+.popup-gallery img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  min-height: 250px;
+  max-height: 250px;}
+
+@media only screen and (max-width: 1000px) {
+  .popup-gallery img {
+    min-height: 150px;
+    max-height: 150px;}}
+
+.singicon_btn_nlf {
+  position: absolute;
+  top: 44%;
+  bottom: 56%;
+  left: 44%;
+  right: 56%;
+  opacity: 0;}
+
+.singicon_btn_nlf svg {
+  color: #fff;}
+
+.popup-gallery a:hover .singicon_btn_nlf {
+  opacity: 1;}
+
+.hover_affect_nlf:hover img {
+  opacity: 0.7;}
+
+
+
+
+
+
+
+
+/*---------------# Contact page----------------*/
+.Contact-bg {padding: 20vh 0 20vh 0;}
+.Contact-bg h1{font-weight: 700; color: rgb(136, 136, 136); margin-bottom: 30px; text-align: center;}
+
+
+
+
+
+/*---------------# Footer ----------------*/
+.Footer-bg {padding: 30vh 0 30vh 0; background: linear-gradient(#958E69,#000000)}
