@@ -14,7 +14,10 @@ header img {width: 150px;}
 .navbar a:hover {color: rgb(155, 125, 82);}
 .navbar {background-color: rgba(0, 0, 0, 0.2);}
 /*---------------# Home ----------------*/
-@media (min-width: 360px) and (max-width: 664px){.header-container h1 {  display: none;}}
+@media (min-width: 0px) and (max-width: 664px){
+.header-container h1 {  display: none;}
+.About-sidc-bg {padding: 10vh 0 20vh 0; background-color: rgb(235, 235, 235);}
+}
 .Home-bg video {width: 100%;}
 .header-container {display: flex; justify-content: center; text-align: center;}
 .header-container h1 {position: absolute;top: 0;  color: white;font-weight: 700; font-size: 70px;margin-top: 20%; }
